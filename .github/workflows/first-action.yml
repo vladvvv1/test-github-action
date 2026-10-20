@@ -7,6 +7,8 @@ jobs:
 
     steps:
       - name: Greeting message
-        run: echo "Hello, world"
+        run: |
+          echo "Hello, world"
+          echo "Hello, world #2"
       - name: Goodbye message
         run: echo "Goodbye!"      
