@@ -1,14 +1,15 @@
-name: First action
+name: test workflow
 on: workflow_dispatch
 
 jobs:
-  first_job:
+  first-job:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Greeting message
+      - name: greeting message
         run: |
-          echo "Hello, world"
-          echo "Hello, world #2"
-      - name: Goodbye message
-        run: echo "Goodbye!"      
+          echo "Hello world"
+          echo "HELLLOWKF"
+          echo "FDSKLFJSD:"
+      - name: goodbye message
+        run: echo "goodbye"
